@@ -1,26 +1,18 @@
 @import "tailwindcss";
 
+/* Wedding palette */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+	--color-bg: #faf3e3; /* soft background */
+	--color-text: #532f1c; /* main text */
+	--color-accent1: #af6f5b;
+	--color-accent2: #9f6633;
+	--color-accent3: #dca279;
+	--color-accent4: #7b673b;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+	background-color: var(--color-bg);
+	color: var(--color-text);
+	margin: 0;
+	padding: 0;
 }
