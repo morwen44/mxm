@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-// Reverted to the standard import
 import { motion } from "framer-motion";
 
 export interface PositionedImage {
@@ -28,7 +27,7 @@ export default function DressCode({ dressCodeText, images }: DressCodeProps) {
 			y: 0,
 			transition: {
 				delay: i * 0.15,
-				type: "spring",
+				type: "spring" as const, // <-- FIXED: Added "as const"
 				stiffness: 100,
 				damping: 15,
 			},
@@ -40,7 +39,11 @@ export default function DressCode({ dressCodeText, images }: DressCodeProps) {
 		visible: (i: number) => ({
 			opacity: 1,
 			y: 0,
-			transition: { delay: i * 0.2, duration: 1, ease: "easeOut" },
+			transition: {
+				delay: i * 0.2,
+				duration: 1,
+				ease: "easeOut" as const, // <-- FIXED: Added "as const" just to be safe
+			},
 		}),
 	};
 
@@ -53,7 +56,7 @@ export default function DressCode({ dressCodeText, images }: DressCodeProps) {
 						key={index}
 						src={img.src}
 						alt={`Dress code ${index + 1}`}
-						className="absolute rounded-sm object-cover w-1/2" // Fixed width back to w-1/2
+						className="absolute rounded-sm object-cover w-1/2"
 						style={{
 							top: img.top,
 							left: img.left,
