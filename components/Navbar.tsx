@@ -99,7 +99,11 @@ export default function Navbar({
 						initial={{ opacity: 0, x: "100%" }}
 						animate={{ opacity: 1, x: 0 }}
 						exit={{ opacity: 0, x: "100%" }}
-						transition={{ type: "tween", duration: 0.4, ease: "circOut" }}
+						transition={{
+							type: "tween" as const,
+							duration: 0.4,
+							ease: "circOut" as const,
+						}}
 						/* z-[105] sits perfectly between the Nav bar and the Buttons */
 						className="fixed top-0 left-0 w-full h-[100dvh] bg-[var(--color-bg)] z-[105] flex flex-col items-center justify-center gap-10">
 						{navLinks.map((link, i) => (

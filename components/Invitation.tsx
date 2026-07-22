@@ -31,7 +31,7 @@ export default function Invitation({
 			transition: {
 				delay: i * 0.2,
 				duration: 1,
-				ease: "easeOut",
+				ease: "easeOut" as const,
 			},
 		}),
 	};
