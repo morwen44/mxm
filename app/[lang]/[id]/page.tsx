@@ -52,7 +52,7 @@ export default async function LocalizedHomePage({
 			</div>
 		);
 	}
-	const firstName = guestData.mainName.split(" ")[0];
+	const firstName = guestData.mainName;
 	// Now use 'data' and 'guestData' to populate your components
 	return (
 		<div className="min-h-screen bg-[var(--color-bg)] text-[var(--color-text)]">
