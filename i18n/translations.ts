@@ -15,7 +15,7 @@ export const translations = {
 			line3: "27.03.27",
 			line4: "LA KIST HACIENDA",
 			line5: "SAN CRISTÓBAL DE LAS CASAS, CHIAPAS",
-			line6: "4:00PM - CEREMONIA",
+			line6: "3:30PM - CEREMONIA",
 			line7: "Cócteles y recepción a continuación",
 			rsvp: "RSVP AQUÍ",
 		},
