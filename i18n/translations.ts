@@ -636,8 +636,8 @@ Für unsere Feier lassen wir uns von einer lebendigen, farbenfrohen Palette insp
 			description:
 				"Bitte bestätige deine Teilnahme bis zum 30. September 2026.",
 
-			yesOption: "Ich komme gerne",
-			noOption: "Leider kann ich nicht",
+			yesOption: "Ja, sehr gerne!",
+			noOption: "Komme(n) leider nicht",
 			confirmAttendeesLabel: "Teilnehmer bestätigen:",
 			plusOnePlaceholder: "Name der Begleitperson",
 			dietaryLabel: "Allergien oder Ernährungseinschränkungen",
