@@ -22,7 +22,7 @@ export default function RSVP({
 	const [message, setMessage] = useState("");
 
 	// Get just the first name for the personal greeting
-	const firstName = guestData.mainName.split(" ")[0];
+	const firstName = guestData.mainName;
 
 	useEffect(() => {
 		if (guestData) {
