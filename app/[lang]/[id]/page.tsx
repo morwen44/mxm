@@ -71,11 +71,10 @@ export default async function LocalizedHomePage({
 				<DressCode
 					dressCodeText={data.dressCode}
 					images={[
-						{ src: "/images/dc1.png", top: "10%", left: "55%" },
-						{ src: "/images/dc2.png", top: "23%", left: "2%" },
-						{ src: "/images/dc3.png", top: "38%", left: "35%" },
-						{ src: "/images/dc4.png", top: "10%", left: "55%" },
-						{ src: "/images/dc5.png", top: "20%", left: "5%" },
+						{ src: "/images/dc1.png", top: "40%", left: "45%", width: "25vw" },
+						{ src: "/images/dc2.png", top: "23%", left: "0%", width: "25vw" },
+						{ src: "/images/dc4.png", top: "0%", left: "55%", width: "25vw" },
+						{ src: "/images/dc5.png", top: "26%", left: "2%", width: "50vw" },
 					]}
 				/>
 			</section>

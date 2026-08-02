@@ -275,7 +275,7 @@ Nos inspiran los tonos profundos, terrosos y metálicos cálidos; sin embargo, s
 					items: [
 						{
 							q: "¿Dónde está su registro de regalos?",
-							a: "Para nosotros, el hecho de que hagan el viaje para acompañarnos es el mejor regalo y no es necesario nada más. Sin embargo, si desean tener un detalle con nosotros, lo apreciamos muchísimo. Hemos optado por tener una única opción: un fondo para nuestro futuro. Para facilitar las aportaciones desde México y evitar el rechazo de tarjetas internacionales, hemos configurado un enlace directo y seguro a través de Wise en nuestra página.",
+							a: "Para nosotros, el hecho de que hagan el viaje para acompañarnos es el mejor regalo y no es necesario nada más. Sin embargo, si desean tener un detalle con nosotros, lo apreciamos muchísimo. Hemos optado por tener una única opción: un fondo para nuestro futuro. Para facilitar las aportaciones desde México y evitar el rechazo de tarjetas internacionales, hemos configurado un enlace directo y seguro a través de PayPal en nuestra página.",
 						},
 						{
 							q: "¿Puedo llevar el regalo a la boda?",
@@ -332,7 +332,7 @@ PARA NOSOTROS`,
 				"Si además desean hacernos un regalo, pueden apoyarnos con nuestra luna de miel o contribuir a nuestro hogar compartido.",
 			fundTitle: "LUNA DE MIEL & FONDO PARA EL HOGAR",
 			fundLinkLabel: "Contribuir a nuestra Luna de Miel", // "Transferencia al fondo" made prettier
-			fundLinkUrl: "https://wise.com/share/yourlink", // Swap this for your actual Wise link
+			fundLinkUrl: "https://www.paypal.me/michaelhaerle57", // Swap this for your actual Wise link
 		},
 	},
 	de: {
@@ -341,16 +341,16 @@ PARA NOSOTROS`,
 			travel: "Anreise",
 			dressCode: "Dresscode",
 			registry: "Hochzeitsliste",
-			rsvp: "RVSP",
+			rsvp: "RSVP",
 			faq: "FAQ",
 		},
 		invitation: {
 			line1: "Mit großer Freude",
-			line2: "LADEN WIR DICH EIN, UNSERE HOCHZEIT MIT UNS ZU FEIERN",
+			line2: "LADEN WIR ZU UNSERER HOCHZEIT EIN",
 			line3: "27.03.27",
 			line4: "LA KIST HACIENDA",
 			line5: "SAN CRISTÓBAL DE LAS CASAS, MEXIKO",
-			line6: "16:00 UHR - TRAUUNG",
+			line6: "15:30 UHR - TRAUUNG",
 			line7: "Anschließend Cocktails und Empfang",
 			rsvp: "RSVP HIER",
 		},
@@ -363,7 +363,7 @@ Klassische, dunkle Anzüge und bodenlange Abendkleider sind für diesen Anlass i
 
 Die Feier findet in einem Innenhof mit Kopfsteinpflaster und auf Rasenflächen statt. Wir empfehlen daher, das Schuhwerk entsprechend anzupassen, damit ihr die Nacht unbeschwert durchtanzen könnt.
 
-Wir lassen uns von tiefen, erdigen Tönen und warmen Metallic-Farben inspirieren. Fühlt euch jedoch völlig frei, die Farbe zu tragen, die euch am besten steht und in der ihr euch fantastisch fühlt.`,
+Für unsere Feier lassen wir uns von einer lebendigen, farbenfrohen Palette inspirieren. Fühlt euch jedoch völlig frei, die Farbe zu tragen, die euch am besten steht und in der ihr euch fantastisch fühlt.`,
 			tips: [
 				"Schuhe mit Blockabsatz sind für den Boden besser geeignet und bequemer als Stilettos.",
 				"Bitte vermeidet Weiß, Elfenbein, Champagner oder ähnliche Töne sowie Farben, die leicht mit einem Brautkleid assoziiert werden könnten.",
@@ -371,7 +371,7 @@ Wir lassen uns von tiefen, erdigen Tönen und warmen Metallic-Farben inspirieren
 			],
 		},
 		travelTips: {
-			title: "Reisetipps",
+			title: "Anreisetipps",
 
 			flights: {
 				title: "Flüge",
@@ -498,7 +498,7 @@ Wir lassen uns von tiefen, erdigen Tönen und warmen Metallic-Farben inspirieren
 					items: [
 						{
 							q: "Bis wann muss ich spätestens zu- oder absagen?",
-							a: "Bitte gebt uns bis spätestens zum 30. September 2026 Bescheid, damit wir die Details mit unseren Dienstleistern finalisieren können.",
+							a: "Bitte gebt uns bis spätestens zum 31. Oktober 2026 Bescheid, damit wir die Details mit unseren Dienstleistern finalisieren können.",
 						},
 						{
 							q: "Wie bestätige ich meine Teilnahme?",
@@ -506,15 +506,11 @@ Wir lassen uns von tiefen, erdigen Tönen und warmen Metallic-Farben inspirieren
 						},
 						{
 							q: "Kann ich eine Begleitperson mitbringen?",
-							a: "Falls eine Begleitperson für dich vorgesehen ist, ist ihr Name in deiner Einladung aufgeführt. Aus Kapazitätsgründen können wir leider nur die namentlich genannten Gäste empfangen.",
-						},
-						{
-							q: "Sind Kinder eingeladen?",
-							a: "Da es sich um eine Destination Wedding mit weiter Anreise handelt, haben wir uns entschieden, die Feier in Mexiko ausschließlich für Erwachsene zu planen. Wir hoffen auf euer Verständnis.",
+							a: "Falls eine Begleitperson für dich vorgesehen ist, ist ihr Name oder ein Platzhalter in deiner Einladung aufgeführt. Aus Kapazitätsgründen können wir leider nur die namentlich genannten Gäste empfangen.",
 						},
 						{
 							q: "Was soll ich tun, wenn sich meine Pläne ändern?",
-							a: "Wir verstehen, dass sich Reisepläne ändern können. Sollten sich nach eurer Rückmeldung Änderungen ergeben, bitten wir euch, eure Zusage so bald wie möglich über unsere Wedding Plannerin Dana Balbuena via WhatsApp unter +52 961 239 0494 zu aktualisieren.",
+							a: "Wir verstehen, dass sich Reisepläne ändern können. Sollten sich nach eurer Rückmeldung Änderungen ergeben, bitten wir euch, dem Bräutigam so bald wie möglich via WhatsApp bescheid zu geben.",
 						},
 					],
 				},
@@ -563,7 +559,7 @@ Wir lassen uns von tiefen, erdigen Tönen und warmen Metallic-Farben inspirieren
 						},
 						{
 							q: "Wo sollte ich übernachten?",
-							a: "Wir empfehlen euch, nach Hotels oder Airbnbs direkt in San Cristóbal de las Casas zu suchen. In der Rubrik 'Reisetipps' auf unserer Website haben wir bereits einige Hotelempfehlungen für euch zusammengestellt.",
+							a: "Wir empfehlen euch, nach Hotels oder Airbnbs direkt in San Cristóbal de las Casas zu suchen. In der Rubrik 'Anreisetipps' auf unserer Website haben wir bereits einige Hotelempfehlungen für euch zusammengestellt.",
 						},
 						{
 							q: "Gibt es Hotelkontingente oder Rabattcodes?",
@@ -580,15 +576,11 @@ Wir lassen uns von tiefen, erdigen Tönen und warmen Metallic-Farben inspirieren
 					items: [
 						{
 							q: "Wann sollte ich zur Trauung erscheinen?",
-							a: "Bitte sei etwa 30 Minuten vor Beginn da. Wir möchten betonen, dass die Trauung PÜNKTLICH zur auf der Einladung angegebenen Zeit beginnt. Wenn du frühzeitig ankommst, kannst du in Ruhe deinen Platz finden, ohne den Beginn zu stören.",
+							a: "Bitte sei etwa 30 Minuten vor Beginn da. Wir möchten betonen, dass die Trauung pünktlich zur auf der Einladung angegebenen Zeit beginnt. Wenn du frühzeitig ankommst, kannst du in Ruhe deinen Platz finden, ohne den Beginn zu stören.",
 						},
 						{
 							q: "Wann endet die Feier voraussichtlich?",
 							a: "Die Musik und die Feier enden offiziell um 02:00 Uhr morgens.",
-						},
-						{
-							q: "Gibt es weitere Veranstaltungen vor oder nach der Hochzeit?",
-							a: "Ja, am Freitagabend wird es einen Begrüßungsumtrunk geben.",
 						},
 					],
 				},
@@ -666,7 +658,7 @@ IST FÜR UNS DAS GRÖSSTE GESCHENK`,
 				"Wenn ihr uns etwas schenken möchtet, freuen wir uns sehr über eine Unterstützung für unsere Hochzeitsreise oder unseren gemeinsamen Start ins Zuhause.",
 			fundTitle: "FLITTERWOCHEN & ZUKUNFTS-FONDS",
 			fundLinkLabel: "Flitterwochen-Fonds unterstützen",
-			fundLinkUrl: "https://wise.com/share/yourlink", // Swap this for your actual Wise link
+			fundLinkUrl: "https://www.paypal.me/michaelhaerle57", // Swap this for your actual Wise link
 		},
 	},
 	en: {
@@ -1000,7 +992,7 @@ FOR US`,
 				"If you would like to give us a gift, we would be very happy about a contribution to our honeymoon or our shared home.",
 			fundTitle: "HONEYMOON & HOME FUND",
 			fundLinkLabel: "Contribute to our Honeymoon",
-			fundLinkUrl: "https://wise.com/share/yourlink", // Swap this for your actual Wise link
+			fundLinkUrl: "https://www.paypal.me/michaelhaerle57", // Swap this for your actual Wise link
 		},
 	},
 };

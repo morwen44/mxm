@@ -6,6 +6,7 @@ export interface PositionedImage {
 	src: string;
 	top: string;
 	left: string;
+	width?: string;
 }
 
 export interface DressCodeProps {
@@ -48,7 +49,7 @@ export default function DressCode({ dressCodeText, images }: DressCodeProps) {
 	};
 
 	return (
-		<section className="w-full flex flex-col xl:flex-row items-center mt-20 lg:mt-40 gap-16 px-8 md:px-16 lg:px-32">
+		<section className="w-full flex flex-col xl:flex-row items-center mt-20 mb-20 lg:mt-40 lg:mb-0 gap-16 px-8 md:px-16 lg:px-32">
 			{/* Left Side: Image Collage */}
 			<div className="w-full relative aspect-[4/5] md:aspect-[16/9] lg:aspect-[1/1] xl:w-1/2">
 				{images.map((img, index) => (
@@ -56,11 +57,12 @@ export default function DressCode({ dressCodeText, images }: DressCodeProps) {
 						key={index}
 						src={img.src}
 						alt={`Dress code ${index + 1}`}
-						className="absolute rounded-sm object-cover w-1/2"
+						className="absolute rounded-sm object-cover "
 						style={{
 							top: img.top,
 							left: img.left,
 							zIndex: images.length - index,
+							width: img.width,
 						}}
 						variants={popVariant}
 						initial="hidden"
@@ -72,7 +74,7 @@ export default function DressCode({ dressCodeText, images }: DressCodeProps) {
 			</div>
 
 			{/* Right Side: Centered Text */}
-			<div className="w-full xl:w-1/2 flex flex-col justify-center items-center text-center">
+			<div className="w-full xl:w-1/2 flex flex-col justify-center items-center text-center mt-40">
 				<div className="max-w-xl">
 					<motion.h2
 						className="uppercase text-[var(--color-accent1)] text-4xl lg:text-5xl mb-20 font-bold tracking-[0.2em]"

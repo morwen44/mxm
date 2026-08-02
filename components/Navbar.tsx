@@ -38,18 +38,29 @@ export default function Navbar({
 		{ name: navData.faq, href: "#faq" },
 	];
 
+	// Lógica dinámica de colores
+	const dynamicTextColor =
+		isScrolled || mobileOpen ? "text-[var(--color-accent1)]" : "text-white";
+	const dynamicUnderlineColor = isScrolled
+		? "bg-[var(--color-accent1)]"
+		: "bg-white";
+
+	// Lógica del fondo del Navbar (ahora sin cambios de padding)
+	const navBackgroundClass = mobileOpen
+		? "bg-transparent" // Transparente si el menú móvil está abierto
+		: isScrolled
+			? "bg-[var(--color-bg)]/80 backdrop-blur-md shadow-sm" // Fondo al scrollear
+			: "bg-black/20 backdrop-blur-sm"; // Fondo estático en el top (negro semi-transparente + blur)
+
 	return (
 		<nav
-			className={`fixed top-0 w-full z-[100] transition-all duration-500 px-8 py-6 lg:px-16 ${
-				isScrolled && !mobileOpen
-					? "bg-[var(--color-bg)]/80 backdrop-blur-md py-4 shadow-sm"
-					: "bg-transparent"
-			}`}>
+			// Agregamos py-4 fijo aquí para que la altura nunca cambie
+			className={`fixed top-0 w-full z-[100] transition-all duration-500 px-8 py-4 lg:px-16 ${navBackgroundClass}`}>
 			<div className="max-w-7xl mx-auto flex justify-between items-center relative">
 				{/* Logo: z-[110] keeps it above the menu overlay */}
 				<Link
 					href={`/${lang}`}
-					className="text-xl tracking-[0.2em] font-bold uppercase text-[var(--color-accent1)] z-[110]"
+					className={`text-xl tracking-[0.2em] font-bold uppercase z-[110] transition-colors duration-300 ${dynamicTextColor}`}
 					style={{ fontFamily: "var(--font-eb-garamond)" }}
 					onClick={() => setMobileOpen(false)}>
 					M & M
@@ -61,10 +72,11 @@ export default function Navbar({
 						<a
 							key={link.name}
 							href={link.href}
-							className="group relative text-xs uppercase tracking-[0.3em] text-[var(--color-accent1)]"
+							className={`group relative text-xs uppercase tracking-[0.3em] transition-colors duration-300 ${dynamicTextColor}`}
 							style={{ fontFamily: "var(--font-libre-baskerville)" }}>
 							{link.name}
-							<span className="absolute -bottom-1 left-0 w-full h-[1px] bg-[var(--color-accent1)] scale-x-0 transition-transform duration-500 origin-center group-hover:scale-x-100"></span>
+							<span
+								className={`absolute -bottom-1 left-0 w-full h-[1px] scale-x-0 transition-transform duration-500 origin-center group-hover:scale-x-100 ${dynamicUnderlineColor}`}></span>
 						</a>
 					))}
 				</div>
@@ -72,7 +84,7 @@ export default function Navbar({
 				{/* Mobile Hamburger/X Button: z-[110] is the key here! */}
 				<button
 					onClick={() => setMobileOpen(!mobileOpen)}
-					className="md:hidden text-[var(--color-text)] flex flex-col gap-1.5 z-[110] relative p-2 focus:outline-none"
+					className={`md:hidden flex flex-col gap-1.5 z-[110] relative p-2 focus:outline-none transition-colors duration-300 ${dynamicTextColor}`}
 					aria-label="Menu">
 					{/* Top Line */}
 					<motion.span
@@ -114,7 +126,7 @@ export default function Navbar({
 								initial={{ opacity: 0, y: 10 }}
 								animate={{ opacity: 1, y: 0 }}
 								transition={{ delay: 0.1 + i * 0.1 }}
-								className="text-2xl uppercase tracking-[0.3em] text-[var(--color-text)]"
+								className="text-2xl uppercase tracking-[0.3em] text-[var(--color-accent1)]"
 								style={{ fontFamily: "var(--font-libre-baskerville)" }}>
 								{link.name}
 							</motion.a>
