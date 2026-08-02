@@ -10,8 +10,8 @@ export const translations = {
 			rsvp: "RSVP",
 		},
 		invitation: {
-			line1: "Con gran alegría,",
-			line2: "ESPERAMOS CELEBRAR JUNTOS NUESTRA BODA",
+			line1: "¡Nos casamos!",
+			line2: "Y QUEREMOS CELEBRARLO JUNTOS",
 			line3: "27.03.27",
 			line4: "LA KIST HACIENDA",
 			line5: "SAN CRISTÓBAL DE LAS CASAS, CHIAPAS",
