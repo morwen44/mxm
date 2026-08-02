@@ -38,7 +38,7 @@ export default function HeroVideo({
 				<motion.img
 					src={logoSrc}
 					alt="Logo"
-					className="w-80 md:w-110 h-auto"
+					className="w-80 md:w-90 h-auto"
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
 					transition={{ duration: 2, ease: "easeInOut" }}
