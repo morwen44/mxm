@@ -204,7 +204,7 @@ Nos inspiran los tonos vibrantes y saturados; sin embargo, siéntanse libres de 
 					items: [
 						{
 							q: "¿Cuál es el código de vestimenta?",
-							a: "Nos encantaría que nos acompañen con atuendos de estilo Etiqueta rigurosa. Para los hombres, esto significa usar traje oscuro (la corbata es opcional). Para las mujeres, opciones como vestidos largos, vestidos midi elegantes o conjuntos formales de pantalón son ideales.",
+							a: "Nos encantaría que nos acompañen con atuendos de estilo Formal de Noche. Para los hombres, esto significa usar traje oscuro (la corbata es opcional). Para las mujeres, opciones como vestidos largos, vestidos midi elegantes o conjuntos formales de pantalón son ideales.",
 						},
 						{
 							q: "¿Qué tipo de calzado es más adecuado para el lugar?",
