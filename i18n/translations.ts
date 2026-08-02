@@ -11,7 +11,7 @@ export const translations = {
 		},
 		invitation: {
 			line1: "Con gran alegría,",
-			line2: "TE INVITAMOS A ACOMPAÑARNOS A CELEBRAR NUESTRA BODA",
+			line2: "ESPERAMOS CELEBRAR JUNTOS NUESTRA BODA",
 			line3: "27.03.27",
 			line4: "LA KIST HACIENDA",
 			line5: "SAN CRISTÓBAL DE LAS CASAS, CHIAPAS",
@@ -21,14 +21,14 @@ export const translations = {
 		},
 		dressCode: {
 			title: "Código de vestimenta",
-			line1: "Etiqueta rigurosa",
+			line1: "Formal de Noche",
 			description: `Nos encantaría que se sumen a la atmósfera de la hacienda con un look elegante y sofisticado.
 
 Trajes formales y vestidos largos son perfectos para la ocasión.
 
 La celebración será en un patio con empedrado y áreas de pasto, por lo que recomendamos considerar zapatos adecuados para este tipo de superficie.
 
-Nos inspiran los tonos profundos, terrosos y metálicos cálidos; sin embargo, siéntanse libres de vestir el color que más les favorezca y con el que se sientan espectaculares.`,
+Nos inspiran los tonos vibrantes y saturados; sin embargo, siéntanse libres de vestir el color que más les favorezca y con el que se sientan espectaculares.`,
 			tips: [
 				"Tacones gruesos o bloque son más cómodos que stilettos.",
 				"Evitar blanco, marfil, champagne, o tonos muy similares a vestidos de novia.",
@@ -163,7 +163,7 @@ Nos inspiran los tonos profundos, terrosos y metálicos cálidos; sin embargo, s
 					items: [
 						{
 							q: "¿Cuál es la fecha límite para confirmar mi asistencia?",
-							a: "Por favor, confírmanos tu asistencia a más tardar el 30 de Septiembre 2026 para que podamos finalizar los detalles con nuestros proveedores.",
+							a: "Por favor, confírmanos tu asistencia a más tardar el 31 de Octubre 2026 para que podamos finalizar los detalles con nuestros proveedores.",
 						},
 						{
 							q: "¿Cómo confirmo mi asistencia?",
@@ -173,13 +173,10 @@ Nos inspiran los tonos profundos, terrosos y metálicos cálidos; sin embargo, s
 							q: "¿Puedo traer un acompañante?",
 							a: "Si tienes un acompañante contemplado, su nombre vendrá detallado en el formulario o habrá un espacio para que lo incluyas. Por cuestiones de capacidad, solo podemos recibir a las personas indicadas.",
 						},
-						{
-							q: "¿Se invita a niños?",
-							a: "Como se trata de una boda destino con un viaje largo, hemos decidido planear la celebración en México exclusivamente para adultos.",
-						},
+
 						{
 							q: "¿Qué debo hacer si mis planes cambian?",
-							a: "Entendemos que los planes de viaje pueden cambiar. Si tus planes cambian después de confirmar tu asistencia, por favor actualiza tu RSVP directamente con nuestra wedding planner Dana Balbuena +52 961 239 0494",
+							a: "Entendemos que los planes de viaje pueden cambiar. Si tus planes cambian después de confirmar tu asistencia, por favor actualiza tu RSVP directamente con la novia via WhatsApp.",
 						},
 					],
 				},
@@ -251,10 +248,6 @@ Nos inspiran los tonos profundos, terrosos y metálicos cálidos; sin embargo, s
 							q: "¿Cuándo se espera que termine el día?",
 							a: "La música y la celebración terminarán oficialmente a las 2:00 a.m.",
 						},
-						{
-							q: "¿Hay algún evento previo o post-boda a los que estén invitados los invitados?",
-							a: "Sí, tendremos un brindis de bienvenida el viernes por la noche.",
-						},
 					],
 				},
 				{
@@ -308,12 +301,14 @@ Nos inspiran los tonos profundos, terrosos y metálicos cálidos; sin embargo, s
 		},
 		rsvp: {
 			greeting: "Hola",
-			title: "¿Nos acompañarás?",
+			title: "¿Nos vemos en la boda?",
+			attendanceLabel:
+				"Por favor, ayúdanos confirmando tu asistencia antes del 31 de Octubre, 2026.",
 			description:
 				"Por favor, ayúdanos confirmando tu asistencia antes del 30 de Septiembre, 2026.",
-			attendanceLabel: "¿Asistirás?",
-			yesOption: "Confirmo con gusto",
-			noOption: "Lamentablemente no podré",
+
+			yesOption: "¡Claro que sí!",
+			noOption: "Lamentablemente no",
 			confirmAttendeesLabel: "Confirmar asistentes:",
 			plusOnePlaceholder: "Nombre del acompañante",
 			dietaryLabel: "Alergias o restricciones alimenticias",
@@ -329,7 +324,7 @@ Nos inspiran los tonos profundos, terrosos y metálicos cálidos; sin embargo, s
 ES EL REGALO MÁS IMPORTANTE
 PARA NOSOTROS`,
 			description:
-				"Si además desean hacernos un regalo, pueden apoyarnos con nuestra luna de miel o contribuir a nuestro hogar compartido.",
+				"Si además desean hacernos un regalo, pueden apoyarnos con nuestra luna de miel o contribuir a nuestro hogar.",
 			fundTitle: "LUNA DE MIEL & FONDO PARA EL HOGAR",
 			fundLinkLabel: "Contribuir a nuestra Luna de Miel", // "Transferencia al fondo" made prettier
 			fundLinkUrl: "https://www.paypal.me/michaelhaerle57", // Swap this for your actual Wise link
@@ -635,10 +630,12 @@ Für unsere Feier lassen wir uns von einer lebendigen, farbenfrohen Palette insp
 		},
 		rsvp: {
 			greeting: "Hallo",
-			title: "Begleitest du uns?",
+			title: "feiern wir zusammen?",
+			attendanceLabel:
+				"Bitte bestätige deine Teilnahme bis zum 31. Oktober 2026.",
 			description:
 				"Bitte bestätige deine Teilnahme bis zum 30. September 2026.",
-			attendanceLabel: "Wirst du kommen?",
+
 			yesOption: "Ich komme gerne",
 			noOption: "Leider kann ich nicht",
 			confirmAttendeesLabel: "Teilnehmer bestätigen:",
