@@ -961,7 +961,8 @@ We are inspired by vibrant and saturated colors; however, please feel free to we
 			title: "Will you join us?",
 			description:
 				"Please help us by confirming your attendance before October 31st, 2026.",
-			attendanceLabel: "Will you attend?",
+			attendanceLabel:
+				"Please help us by confirming your attendance before October 31st, 2026.",
 			yesOption: "Of course!",
 			noOption: "Regretfully, we can't make it",
 			confirmAttendeesLabel: "Confirm attendees:",
