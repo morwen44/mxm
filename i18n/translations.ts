@@ -833,7 +833,7 @@ We are inspired by vibrant and saturated colors; however, please feel free to we
 
 						{
 							q: "What should I do if my plans change?",
-							a: "We understand that travel plans can change. If you need to update your RSVP after the deadline due to unforeseen circumstances, please contact our wedding planner via WhatsApp: Dana Balbuena +52 961 239 0494",
+							a: "We understand that travel plans can change. If you need to update your RSVP after the deadline due to unforeseen circumstances, please contact Monse.",
 						},
 					],
 				},
