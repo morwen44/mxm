@@ -669,11 +669,11 @@ IST FÜR UNS DAS GRÖSSTE GESCHENK`,
 		},
 		invitation: {
 			line1: "With great joy,",
-			line2: "WE INVITE YOU TO JOIN US TO CELEBRATE OUR WEDDING",
+			line2: "WE INVITE YOU TO OUR WEDDING",
 			line3: "27.03.27",
 			line4: "LA KIST HACIENDA",
 			line5: "SAN CRISTÓBAL DE LAS CASAS, MEXICO",
-			line6: "4:00 PM - CEREMONY",
+			line6: "3:30 PM - CEREMONY",
 			line7: "Cocktails and reception to follow",
 			rsvp: "RSVP HERE",
 		},
@@ -686,7 +686,7 @@ Formal suits and floor-length dresses are perfect for the occasion.
 
 The celebration will take place in a courtyard with cobblestones and grassy areas, so we recommend considering appropriate footwear for these surfaces.
 
-We are inspired by deep, earthy tones and warm metallics; however, please feel free to wear whichever color suits you best and makes you feel spectacular.`,
+We are inspired by vibrant and saturated colors; however, please feel free to wear whichever color suits you best and makes you feel spectacular.`,
 			tips: [
 				"Block heels or wedges are more comfortable than stilettos.",
 				"Please avoid white, ivory, champagne, or any shades very similar to the bridal gowns.",
@@ -820,7 +820,7 @@ We are inspired by deep, earthy tones and warm metallics; however, please feel f
 					items: [
 						{
 							q: "What is the deadline to RSVP?",
-							a: "Kindly RSVP by September 30, 2026 so we may finalize arrangements with our vendors.",
+							a: "Kindly RSVP by October 31st, 2026 so we may finalize arrangements with our vendors.",
 						},
 						{
 							q: "How do I RSVP?",
@@ -830,10 +830,7 @@ We are inspired by deep, earthy tones and warm metallics; however, please feel f
 							q: "Can I bring a plus one?",
 							a: "If a plus one has been included for you, their name will be listed on your invitation. Due to capacity constraints, we can only accommodate the guests specifically named.",
 						},
-						{
-							q: "Are children invited?",
-							a: "This is an intimate celebration designed for adults. We kindly ask for your understanding.",
-						},
+
 						{
 							q: "What should I do if my plans change?",
 							a: "We understand that travel plans can change. If you need to update your RSVP after the deadline due to unforeseen circumstances, please contact our wedding planner via WhatsApp: Dana Balbuena +52 961 239 0494",
@@ -902,15 +899,11 @@ We are inspired by deep, earthy tones and warm metallics; however, please feel f
 					items: [
 						{
 							q: "What time should I arrive for the ceremony?",
-							a: "Please arrive about 30 minutes early. We want to emphasize that the ceremony will begin EXACTLY at the time indicated on the invitation. Arriving early will allow you to find your seat comfortably without interrupting the start.",
+							a: "Please arrive about 30 minutes early. We want to emphasize that the ceremony will begin exactly at the time indicated on the invitation. Arriving early will allow you to find your seat comfortably without interrupting the start.",
 						},
 						{
 							q: "When is the celebration expected to end?",
 							a: "The music and the celebration will officially end at 2:00 a.m.",
-						},
-						{
-							q: "Are there any pre- or post-wedding events that guests are invited to?",
-							a: "Yes, we will have a welcome toast on Friday night.",
 						},
 					],
 				},
@@ -967,10 +960,10 @@ We are inspired by deep, earthy tones and warm metallics; however, please feel f
 			greeting: "Hello",
 			title: "Will you join us?",
 			description:
-				"Please help us by confirming your attendance before September 30th, 2026.",
+				"Please help us by confirming your attendance before October 31st, 2026.",
 			attendanceLabel: "Will you attend?",
-			yesOption: "I'll be there!",
-			noOption: "Regretfully, I can't make it",
+			yesOption: "Of course!",
+			noOption: "Regretfully, we can't make it",
 			confirmAttendeesLabel: "Confirm attendees:",
 			plusOnePlaceholder: "Plus one name",
 			dietaryLabel: "Allergies or dietary restrictions",
