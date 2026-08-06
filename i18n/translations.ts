@@ -131,7 +131,7 @@ Nos inspiran los tonos vibrantes y saturados; sin embargo, siéntanse libres de 
 			],
 			activitiesTitle: "Actividades",
 			activities: [
-				"Caminar por el Andador Guadalupe y el Andador Eclesiástico, disfrutando del ambiente bohemio, músicos callejeros y galerías.",
+				"Caminar por el Andador Guadalupe y el Andador Eclesiástico, disfrutando del ambiente, músicos callejeros y galerías.",
 				"Visitar el Mercado de Dulces y Artesanías para llevarse un recuerdo hecho a mano y probar los dulces típicos chiapanecos.",
 				"Subir los casi 280 escalones hasta el Templo de San Cristobalito para una vista panorámica increíble de toda la ciudad.",
 				"Conocer el Museo del Ámbar, ubicado en un hermoso ex-convento en el centro, para ver de cerca las piezas de resina fosilizada.",
@@ -461,7 +461,7 @@ Für unsere Feier lassen wir uns von einer lebendigen, farbenfrohen Palette insp
 			],
 			activitiesTitle: "Aktivitäten",
 			activities: [
-				"Entlang des Andador Guadalupe und des Andador Eclesiástico spazieren und die böhmische Atmosphäre, Straßenmusiker und Galerien genießen.",
+				"Entlang des Andador Guadalupe und des Andador Eclesiástico spazieren und die Atmosphäre, Straßenmusiker und Galerien genießen.",
 				"Den Süßigkeiten- und Handwerksmarkt besuchen, um ein handgemachtes Souvenir mitzunehmen und typische Süßigkeiten aus Chiapas zu probieren.",
 				"Die knapp 280 Stufen zum Templo de San Cristobalito hinaufsteigen, um einen unglaublichen Panoramablick auf die ganze Stadt zu haben.",
 				"Das Bernsteinmuseum in einem wunderschönen ehemaligen Kloster im Zentrum besuchen, um die versteinerten Harzstücke aus der Nähe zu betrachten.",
@@ -788,7 +788,7 @@ We are inspired by vibrant and saturated colors; however, please feel free to we
 			],
 			activitiesTitle: "Activities",
 			activities: [
-				"Walk along the Andador Guadalupe and Andador Eclesiástico, enjoying the bohemian atmosphere, street musicians, and galleries.",
+				"Walk along the Andador Guadalupe and Andador Eclesiástico, enjoying the atmosphere, street musicians, and galleries.",
 				"Visit the Sweets and Crafts Market to take home a handmade souvenir and try typical Chiapas candies.",
 				"Climb the nearly 280 steps to the Templo de San Cristobalito for an incredible panoramic view of the whole city.",
 				"Visit the Amber Museum, located in a beautiful former convent downtown, to see the fossilized resin pieces up close.",
